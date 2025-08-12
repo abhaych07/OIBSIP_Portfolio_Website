@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(0,0,33);
+    color: white;
+}
+nav ul li{
+    list-style: none;
+    padding:50px 20px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: ease-in-out 0.3s;
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}
+nav ul{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div{
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: ease-in-out 0.3s;
+}
+nav div:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color:rgb(1,1,80);
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: none;
+    color: yellow;
+    
+}
+container_main{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+}
+.left{
+    font-size: 40px;
+    font-family: poppins, sans-serif;
+    margin-top: 80px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+}
+.color{
+    color: purple;
+}
+#element{
+        color: purple;
+
+}
+hr{
+    border: 1px;
+    height: 2px;
+    background-color: rgb(32, 13, 81);
+    margin: 0px 120px;
+}
+skills_section h2{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.skill_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.skill_list ul{
+    margin-left: -70px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.skill_list ul li{
+    margin: 30px 0px;
+    transition: ease-in-out 0.3s;
+}
+.skill_list ul li:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+.skill_list ul li img{
+    height: 25px;
+    width: 30px;
+    padding-left: 10px;
+}
+.skill_list hr{
+    /* width: 75vw;
+    margin-left: 250px;
+    margin-top: 50px;
+    border: 1px;
+    height: 2px;
+    background-color: white; */
+    height: 450px;
+    width: 1px;
+    background-color: white;
+}
+.hr_lines{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    /* align-items: center; */
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+}
+.hr_lines hr{
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    height: 20px; 
+    width: 1px;
+}
+PROJECT_SECTION H2{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.project_list hr{
+    height: 1100px; 
+    width: 1px; 
+    background-color: white; 
+}
+.project_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.project_list ul{
+    margin-left: -70px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.project_list ul li{
+    margin: 30px 0px;
+}
+.project_list ul li span{
+    color: blue;
+}
+resume_section h2{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.resume_download a img{
+    height: 25px;
+    width: 30px;
+    padding-left: 10px;
+
+}
+.resume_download{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+contact_section h2{
+    margin-left: 120px;
+    margin-top: 50px;
+
+}
+.contact_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+.contact_list ul{
+    margin-left: -70px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.contact_list ul li{
+    margin: 30px 0px;
+    transition: ease-in-out 0.3s;
+}
+.contact_list hr{
+    height: 250px;
+    margin-top: 15px;
+    width: 1px;
+    background-color: white;
+}
+.contact_list ul li img{
+    height: 25px;
+    width: 30px;
+    padding-left: 10px;
+}
+footer{
+        background-color:rgb(1,1,80);
+
+}
+.developer{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.copyright{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+}
+.contact_list ul li:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
